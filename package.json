@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=./config/.env server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "npm": "^11.6.0"
+  }
+}
